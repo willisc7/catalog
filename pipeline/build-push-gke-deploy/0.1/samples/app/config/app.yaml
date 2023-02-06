@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: gke-deploy-tekton-demo
-        image: gcr.io/@IMAGE_REGISTRY_PROJECT@/gke-deploy-tekton-demo
+        image: gcr.io/tekton-377015/gke-deploy-tekton-demo
 ---
 apiVersion: autoscaling/v2beta1
 kind: HorizontalPodAutoscaler
